@@ -1,0 +1,16 @@
+{
+  "name": "sobekkseter-upload",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "firebase": "^9.15.0",
+    "tsx": "^3.12.1"
+  }
+}
