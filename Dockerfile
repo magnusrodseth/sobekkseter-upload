@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 9999 
 ENV PORT 9999 
 
-CMD ["pnpm", "run", "start"]
+CMD ["yarn", "start"]
