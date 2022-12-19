@@ -2,8 +2,9 @@
   "name": "sobekkseter-upload",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
-    "start": "tsx src/app.ts"
+    "upload": "tsx src/upload.ts"
   },
   "keywords": [],
   "author": "",
