@@ -21,6 +21,8 @@ Ensure you have all necessary environment variables set. See [`env.d.ts`](/src/t
 
 Additionally, ensure you have Docker installed.
 
+Lastly, ensure that the image file in the volume in [`docker-compose.yml`](/docker-compose.yml) points to your desired file. You can search for `todo` in your project to find the line in the file.
+
 ```sh
 # Navigate to the project directory
 cd sobekkseter-upload

@@ -11,6 +11,6 @@ services:
     ports:
       - "9999:9999"
     volumes:
-      - ./test.png:/app/webcamera.jpg
+      - ./todo-your-image-goes-here.png:/app/webcamera.jpg
     restart: on-failure
     
