@@ -3,7 +3,7 @@ import { storage } from './lib/firebase'
 import { readFileSync } from 'fs'
 
 // Read file from local file system
-const file = readFileSync('./test.png')
+const file = readFileSync('/app/webcamera.jpg')
 const destination = 'webcamera.jpg'
 
 // Upload file to Firebase Storage

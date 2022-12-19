@@ -13,20 +13,18 @@ Developed by Magnus Rødseth.
 - TypeScript
 - Node.js
 - Firebase Cloud Storage
+- Docker
 
 ## Running the application ✅
 
 Ensure you have all necessary environment variables set. See [`env.d.ts`](/src/types/env.d.ts) for a list of required environment variables.
 
-Note that you can use any package manager, but the following commands use [pnpm](https://pnpm.io/).
+Additionally, ensure you have Docker installed.
 
 ```sh
 # Navigate to the project directory
 cd sobekkseter-upload
 
-# Install dependencies
-pnpm install
-
-# Run the script
-pnpm upload
+# Install dependencies and run application
+docker compose up
 ```

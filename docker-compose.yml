@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  upload:
+    container_name: upload
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9999:9999"
+    volumes:
+      - ./test.png:/app/webcamera.jpg
+    restart: on-failure
+    

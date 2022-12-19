@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "upload": "tsx src/upload.ts"
+    "start": "tsx src/upload.ts"
   },
   "keywords": [],
   "author": "",
