@@ -2,6 +2,7 @@ import { initializeApp } from 'firebase/app'
 import { FirebaseApp, getApp, FirebaseOptions } from 'firebase/app'
 import { getStorage } from 'firebase/storage'
 import { config } from 'dotenv'
+import { getAuth } from 'firebase/auth'
 config()
 
 /**
@@ -31,4 +32,6 @@ const app = firebaseApp(firebaseConfig)
 
 const storage = getStorage(app)
 
-export { app, storage }
+const auth = getAuth(app)
+
+export { app, storage, auth }
