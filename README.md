@@ -15,6 +15,10 @@ Developed by Magnus Rødseth.
 - Firebase Cloud Storage
 - Docker
 
+## Firebase Billing
+
+This project uses Firebase Cloud Storage on the **Blaze plan** (pay-as-you-go). The Blaze plan includes a generous free quota (5 GB storage, 30 GB egress/month, ~2M operations/month), which this project stays well within. In March 2026, the free Spark plan stopped supporting Cloud Storage, requiring the upgrade. The upgrade costs nothing for our usage level.
+
 ## Running the application ✅
 
 Ensure you have all necessary environment variables set. See [`env.d.ts`](/src/types/env.d.ts) for a list of required environment variables.
